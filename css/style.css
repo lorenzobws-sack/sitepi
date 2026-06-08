@@ -5,7 +5,10 @@
 
 }
 
-
+svg{
+     height: 130px; 
+     width: 130px;
+}
 
 .guarani:hover {
     opacity: 0.5;
