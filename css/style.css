@@ -5,6 +5,10 @@
 
 }
 
+pattern{
+    width: 60%;
+    height: 60%;
+}
 
 .guarani:hover {
     opacity: 0.5;
