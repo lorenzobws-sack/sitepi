@@ -38,13 +38,13 @@ document.querySelectorAll("g.kaingang path, g.xokleng path, g.guarani path").for
         legendinha.textContent = el.id.replace("_SC", "").replaceAll("_", " ");
 
          if (el.closest("g.kaingang")) {
-            legendinha.style.background = "#dc143c";
+            legendinha.style.background = "rgba(248, 0, 0, 0.744)";
         } 
         else if (el.closest("g.xokleng")) {
-            legendinha.style.background = "#05b0b6";
+            legendinha.style.background = "rgba(0, 240, 248, 0.644)";
         } 
         else if (el.closest("g.guarani")) {
-            legendinha.style.background = "#0aa851";
+            legendinha.style.background = "rgba(0, 248, 12, 0.644)";
         }
 
     };
