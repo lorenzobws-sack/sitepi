@@ -2,24 +2,31 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 16px;
 
 }
-
+body {
+   background-color: #05b0b6;
+   display: flex;
+   flex-direction: column;
+}
+.mapinha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+   
+}
 svg{
-     height: 1300px; 
-     width: 1300px;
+     height: 50%; 
+     width: 50%;
+     border-radius: 1.5rem;
+     
+    border: 1px solid rgba(82, 82, 82, 0.616);
 }
-
-.guarani:hover {
-    opacity: 0.5;
-}
-
-.xokleng:hover {
-    opacity: 0.5;
-}
-
-.kaingang:hover {
-    opacity: 0.5;
+#svg-background{
+     background-color: rgba(150, 150, 150, 0.575);
+    
 }
 
 .xokleng {
@@ -46,4 +53,64 @@ svg{
     fill: rgb(209, 219, 221);
     stroke-width: 0.1;
     
+}
+#legendinha {
+    position: absolute;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    pointer-events: none;
+    display: none;
+}
+g.guarani path:hover {
+    opacity: 0.5;
+}
+
+g.xokleng path:hover {
+    opacity: 0.5;
+}
+
+g.kaingang path:hover {
+    opacity: 0.5;
+}
+header{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 2rem;
+
+}
+.caixinha{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-left: 40rem;
+    padding-right: 40rem;
+    background-color: rgba(150, 150, 150, 0.575);
+    border: 1px solid rgba(82, 82, 82, 0.616);
+    border-radius: 10px;
+}
+.tituloPrincipal{
+    margin-bottom: 1.5rem;
+    
+}
+.tituloPrincipal h1{
+font-size: 2rem;
+text-align: center;
+ color: #030704;
+}
+header nav{
+    
+}
+header nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    justify-content: center;
+}
+header nav ul li a{
+    text-decoration:none;
+    color: #030704;
+
 }
