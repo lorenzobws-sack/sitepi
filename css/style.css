@@ -34,9 +34,7 @@ svg{
     border: 3px solid rgba(82, 82, 82, 0.616);
     
 }
-#wrapper{
-    border: 1px solid red;
-}
+
 #svg-background{
      background-color: rgba(150, 150, 150, 0.575);
     
@@ -119,9 +117,7 @@ font-size: 2rem;
 text-align: center;
  color: #030704;
 }
-header nav{
-    
-}
+
 header nav ul{
     display: flex;
     gap: 2rem;
@@ -144,9 +140,13 @@ color:#05b0b6;
 .guarani-uff{
     color: #0aa851;
 }
-.legenda-mapinha{
+#legend-row-svg-006d2c-tspan-svg0{
+font-size: 67px;
+}
+#legend-row-svg-e31a1c-tspan-svg0{
+font-size: 67px;
+}
+#legend-row-svg-ffff33-tspan-svg0{
 
-   position: absolute;
-   
-    border: 1px solid red;
+font-size: 67px;
 }
