@@ -32,6 +32,10 @@ svg{
      border-radius: 1.5rem;
      
     border: 3px solid rgba(82, 82, 82, 0.616);
+    
+}
+#wrapper{
+    border: 1px solid red;
 }
 #svg-background{
      background-color: rgba(150, 150, 150, 0.575);
@@ -139,4 +143,10 @@ color:#05b0b6;
 }
 .guarani-uff{
     color: #0aa851;
+}
+.legenda-mapinha{
+
+   position: absolute;
+   
+    border: 1px solid red;
 }
