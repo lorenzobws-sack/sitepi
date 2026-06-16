@@ -17,20 +17,35 @@ body {
    display: flex;
    flex-direction: column;
 }
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 .mapinha{
     display: flex;
     justify-content: center;
     align-items: center;
+
     margin-top: 10rem;
     margin-bottom: 4rem;
-    transition: 2s;
-    width: 100%;
+
+    width: 40%;
+    height: 100%;
+
+    transition: transform 1.5s ease-in-out;
+    transform-origin: top left;
+  
     
    
 }
 svg{
-     height: 50%; 
-     width: 50%;
+     
+     width: 100%;
      border-radius: 1.5rem;
      
     border: 3px solid rgba(82, 82, 82, 0.616);
@@ -142,24 +157,24 @@ color:#05b0b6;
 .guarani-uff{
     color: #0aa851;
 }
-#legend-row-svg-006d2c-tspan-svg0{
+#legenda-kaingang{
 font-size: 67px;
 }
-#legend-row-svg-e31a1c-tspan-svg0{
+#legenda-xokleng{
 font-size: 67px;
 }
-#legend-row-svg-ffff33-tspan-svg0{
+#legenda-guarani{
 
 font-size: 67px;
 }
 .mapinha.active{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10rem;
-    margin-bottom: 4rem;
-    width: 50%;
-    transition: 2s;
+    transform:
+    translate(-400px, -80px)
+    scale(0.6);
+    transition: 1.5s;
+ 
+
+
 }
 .popupzinho1 {
     display: none;
@@ -358,3 +373,4 @@ font-size: 67px;
     font-size: 20px;
     width: 100px;
 }
+
