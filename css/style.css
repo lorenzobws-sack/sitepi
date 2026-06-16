@@ -20,11 +20,15 @@ body {
 
 main{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    
 }
 
-
+.areamapa {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 .mapinha{
     display: flex;
@@ -39,6 +43,7 @@ main{
 
     transition: transform 1.5s ease-in-out;
     transform-origin: top left;
+    
   
     
    
@@ -168,10 +173,9 @@ font-size: 67px;
 font-size: 67px;
 }
 .mapinha.active{
-    transform:
-    translate(-400px, -80px)
-    scale(0.6);
+    transform: translateX(-60%) translateY(-13%)  scale(0.65);
     transition: 1.5s;
+    
  
 
 
@@ -179,13 +183,16 @@ font-size: 67px;
 .popupzinho1 {
     display: none;
     width: 0;
+
 }
 
 .popupzinho1.active1 {
     display: block;
     font-size: 20px;
     width: 100px;
+    
 }
+
 
 .popupzinho2 {
     display: none;
@@ -374,3 +381,249 @@ font-size: 67px;
     width: 100px;
 }
 
+
+.cidadinha1 {
+    display: none;
+    width: 0;
+}
+
+.cidadinha1.active1 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.cidadinha2 {
+    display: none;
+    width: 0;
+}
+
+.cidadinha2.active2 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.cidadinha3 {
+    display: none;
+    width: 0;
+}
+
+.cidadinha3.active3 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.cidadinha4 {
+    display: none;
+    width: 0;
+}
+
+.cidadinha4.active4 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.cidadinha5 {
+    display: none;
+    width: 0;
+}
+
+.cidadinha5.active5 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.cidadinha6 {
+    display: none;
+    width: 0;
+}
+
+.cidadinha6.active6 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.cidadinha7 {
+    display: none;
+    width: 0;
+}
+
+.cidadinha7.active7 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.cidadinha8 {
+    display: none;
+    width: 0;
+}
+
+.cidadinha8.active8 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.cidadinha9 {
+    display: none;
+    width: 0;
+}
+
+.cidadinha9.active9 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.cidadinha10 {
+    display: none;
+    width: 0;
+}
+
+.cidadinha10.active10 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.cidadinha11 {
+    display: none;
+    width: 0;
+}
+
+.cidadinha11.active11 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.cidadinha12 {
+    display: none;
+    width: 0;
+}
+
+.cidadinha12.active12 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.cidadinha13 {
+    display: none;
+    width: 0;
+}
+
+.cidadinha13.active13 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.cidadinha14 {
+    display: none;
+    width: 0;
+}
+
+.cidadinha14.active14 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.cidadinha15 {
+    display: none;
+    width: 0;
+}
+
+.cidadinha15.active15 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.cidadinha16 {
+    display: none;
+    width: 0;
+}
+
+.cidadinha16.active16 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.cidadinha17 {
+    display: none;
+    width: 0;
+}
+
+.cidadinha17.active17 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.cidadinha18 {
+    display: none;
+    width: 0;
+}
+
+.cidadinha18.active18 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+[class^="popupzinho"] {
+    position: fixed;  /* fixed em vez de absolute — relativo à janela, não ao pai */
+    right: 5%;
+    top: 10rem;
+    right: 5%;
+
+}
+
+[class*="popupzinho"][class*="active"] {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 5%;
+    top: 10rem;
+    width: 40%;
+    padding: 2rem;
+    margin-top: 5rem;
+    font-size: 20px;
+    background-color: rgba(150, 150, 150, 0.349);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(82, 82, 82, 0.616);
+    border-radius: 0.5rem;
+    
+}
+[class^="cidadinha"] {
+    position: fixed;
+    right: 5%;
+    top: 10rem;
+    right: 5%;
+    transition: 2s;
+}
+
+
+[class*="cidadinha"][class*="active"] {
+    display: flex;
+    flex-direction: column;
+   position: absolute;
+ top: 65%;
+   width: 30%;
+   left: 15rem;
+   height: 30%;
+    background-color: rgba(150, 150, 150, 0.349);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 0, 0, 0.616);
+    border-radius: 0.5rem;
+    transition: 2s;
+    
+}
