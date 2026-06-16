@@ -23,6 +23,8 @@ body {
     align-items: center;
     margin-top: 10rem;
     margin-bottom: 4rem;
+    transition: 2s;
+    width: 100%;
     
    
 }
@@ -149,4 +151,23 @@ font-size: 67px;
 #legend-row-svg-ffff33-tspan-svg0{
 
 font-size: 67px;
+}
+.mapinha.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+    width: 50%;
+    transition: 2s;
+}
+.popupzinho {
+    display: none; /* escondido por padrão */
+    width: 0;
+}
+
+.popupzinho.active1 {
+    display: block; /* aparece quando clica no guarani */
+    font-size: 20px;
+    width: 100px;
 }
