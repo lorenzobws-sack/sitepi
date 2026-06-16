@@ -1,3 +1,6 @@
+let n = 0;
+
+
 const mapinha = document.querySelector('.mapinha');
 const popupzinho1 = document.querySelector('.popupzinho1');
 const popupzinho2 = document.querySelector('.popupzinho2');
@@ -26,78 +29,167 @@ document.querySelectorAll("path").forEach(el => {
         e.stopPropagation();
 
         switch(el.id) {
-            case 'Saudades_SC':
-                mapinha.classList.toggle('active');
-                document.querySelector('.popupzinho1').classList.toggle('active1');
-                break;
-            case 'Chapecó_SC':
-                mapinha.classList.toggle('active');
-                document.querySelector('.popupzinho2').classList.toggle('active2');
-                break;
-            case 'Porto_União_SC':
-                mapinha.classList.toggle('active');
-                document.querySelector('.popupzinho3').classList.toggle('active3');
-                break;
-            case 'Doutor_Pedrinho_SC':
-                mapinha.classList.toggle('active');
-                document.querySelector('.popupzinho4').classList.toggle('active4');
-                break;
-            case 'José_Boiteux_SC':
-                mapinha.classList.toggle('active');
-                document.querySelector('.popupzinho5').classList.toggle('active5');
-                break;
-            case 'Imaruí_SC':
-                mapinha.classList.toggle('active');
-                document.querySelector('.popupzinho6').classList.toggle('active6');
-                break;
-            case 'Palhoça_SC':
-                mapinha.classList.toggle('active');
-                document.querySelector('.popupzinho7').classList.toggle('active7');
-                break;
-            case 'Biguaçu_SC':
-                mapinha.classList.toggle('active');
-                document.querySelector('.popupzinho8').classList.toggle('active8');
-                break;
-            case 'Araquari_SC':
-                mapinha.classList.toggle('active');
-                document.querySelector('.popupzinho9').classList.toggle('active9');
-                break;
-            case 'São_Francisco_do_Sul_SC':
-                mapinha.classList.toggle('active');
-                document.querySelector('.popupzinho10').classList.toggle('active10');
-                break;
-            case 'Joinville_SC':
-                mapinha.classList.toggle('active');
-                document.querySelector('.popupzinho11').classList.toggle('active11');
-                break;
-            case 'Ibirama_SC':
-                mapinha.classList.toggle('active');
-                document.querySelector('.popupzinho12').classList.toggle('active12');
-                break;
-            case 'Vitor_Meireles_SC':
-                mapinha.classList.toggle('active');
-                document.querySelector('.popupzinho13').classList.toggle('active13');
-                break;
-            case 'Água_Doce_SC':
-                mapinha.classList.toggle('active');
-                document.querySelector('.popupzinho14').classList.toggle('active14');
-                break;
-            case 'Abelardo_Luz_SC':
-                mapinha.classList.toggle('active');
-                document.querySelector('.popupzinho15').classList.toggle('active15');
-                break;
-            case 'Xanxerê_SC':
-                mapinha.classList.toggle('active');
-                document.querySelector('.popupzinho16').classList.toggle('active16');
-                break;
-            case 'Entre_Rios_SC':
-                mapinha.classList.toggle('active');
-                document.querySelector('.popupzinho17').classList.toggle('active17');
-                break;
-            case 'Arvoredo_SC':
-                mapinha.classList.toggle('active');
-                document.querySelector('.popupzinho18').classList.toggle('active18');
-                break;
+           case 'Saudades_SC':
+    popupzinho1.classList.add('active1');
+    if (n === 0 ||n === 1) {
+        mapinha.classList.toggle('active');
+        
+    }
+    n = 1;
+    break;
+
+case 'Chapecó_SC':
+    popupzinho2.classList.add('active2');
+    if (n === 0 ||n === 2) {
+        mapinha.classList.toggle('active');
+        
+    }
+    n = 2;
+    break;
+
+case 'Porto_União_SC':
+    popupzinho3.classList.add('active3');
+    if (n === 0 ||n === 3) {
+        mapinha.classList.toggle('active');
+        
+    }
+    n = 3;
+    break;
+
+case 'Doutor_Pedrinho_SC':
+    popupzinho4.classList.add('active4');
+    if (n === 0 ||n === 4) {
+        mapinha.classList.toggle('active');
+        
+    }
+    n = 4;
+    break;
+
+case 'José_Boiteux_SC':
+    popupzinho5.classList.add('active5');
+    if (n === 0 ||n === 5) {
+        mapinha.classList.toggle('active');
+        
+    }
+    n = 5;
+    break;
+
+case 'Imaruí_SC':
+    popupzinho6.classList.add('active6');
+    if (n === 0 ||n === 6) {
+        mapinha.classList.toggle('active');
+        
+    }
+    n = 6;
+    break;
+
+case 'Palhoça_SC':
+    popupzinho7.classList.add('active7');
+    if (n === 0 ||n === 7) {
+        mapinha.classList.toggle('active');
+        
+    }
+    n = 7;
+    break;
+
+case 'Biguaçu_SC':
+    popupzinho8.classList.add('active8');
+    if (n === 0 ||n === 8) {
+        mapinha.classList.toggle('active');
+        
+    }
+    n = 8;
+    break;
+
+case 'Araquari_SC':
+    popupzinho9.classList.add('active9');
+    if (n === 0 ||n === 9) {
+        mapinha.classList.toggle('active');
+        
+    }
+    n = 9;
+    break;
+
+case 'São_Francisco_do_Sul_SC':
+    popupzinho10.classList.add('active10');
+    if (n === 0 ||n === 10) {
+        mapinha.classList.toggle('active');
+        
+    }
+     n = 10;
+    break;
+
+case 'Joinville_SC':
+    popupzinho11.classList.add('active11');
+    if (n === 0 ||n === 11) {
+        mapinha.classList.toggle('active');
+        
+    }
+     n = 11;
+    break;
+
+case 'Ibirama_SC':
+    popupzinho12.classList.add('active12');
+    if (n === 0 ||n === 12) {
+        mapinha.classList.toggle('active');
+        
+    }
+     n = 12;
+    break;
+
+case 'Vitor_Meireles_SC':
+    popupzinho13.classList.add('active13');
+    if (n === 0 ||n === 13) {
+        mapinha.classList.toggle('active');
+        
+    }
+     n = 13;
+    break;
+
+case 'Água_Doce_SC':
+    popupzinho14.classList.add('active14');
+    if (n === 0 ||n === 14) {
+        mapinha.classList.toggle('active');
+        
+    }
+     n = 14;
+    break;
+
+case 'Abelardo_Luz_SC':
+    popupzinho15.classList.add('active15');
+    if (n === 0 ||n === 15) {
+        mapinha.classList.toggle('active');
+        
+    }
+     n = 15;
+    break;
+
+case 'Xanxerê_SC':
+    popupzinho16.classList.add('active16');
+    if (n === 0 ||n === 16) {
+        mapinha.classList.toggle('active');
+        
+    }
+     n = 16;
+    break;
+
+case 'Entre_Rios_SC':
+    popupzinho17.classList.add('active17');
+    if (n === 0 ||n === 17) {
+        mapinha.classList.toggle('active');
+        
+    }
+     n = 17;
+    break;
+
+case 'Arvoredo_SC':
+    popupzinho18.classList.add('active18');
+    if (n === 0 ||n === 18) {
+        mapinha.classList.toggle('active');
+        
+    }
+     n = 18;
+    break;
         }
     });
 });
@@ -116,7 +208,7 @@ document.querySelectorAll("g.kaingang path, g.xokleng path, g.guarani path").for
          if (el.closest("g.kaingang")) {
             legendinha.style.background = "rgba(248, 0, 0, 0.744)";
         } 
-        else if (el.closest("g.xokleng")) {
+         if (el.closest("g.xokleng")) {
             legendinha.style.background = "rgba(0, 240, 248, 0.644)";
         } 
         else if (el.closest("g.guarani")) {
