@@ -161,13 +161,200 @@ font-size: 67px;
     width: 50%;
     transition: 2s;
 }
-.popupzinho {
-    display: none; /* escondido por padrão */
+.popupzinho1 {
+    display: none;
     width: 0;
 }
 
-.popupzinho.active1 {
-    display: block; /* aparece quando clica no guarani */
+.popupzinho1.active1 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.popupzinho2 {
+    display: none;
+    width: 0;
+}
+
+.popupzinho2.active2 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.popupzinho3 {
+    display: none;
+    width: 0;
+}
+
+.popupzinho3.active3 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.popupzinho4 {
+    display: none;
+    width: 0;
+}
+
+.popupzinho4.active4 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.popupzinho5 {
+    display: none;
+    width: 0;
+}
+
+.popupzinho5.active5 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.popupzinho6 {
+    display: none;
+    width: 0;
+}
+
+.popupzinho6.active6 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.popupzinho7 {
+    display: none;
+    width: 0;
+}
+
+.popupzinho7.active7 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.popupzinho8 {
+    display: none;
+    width: 0;
+}
+
+.popupzinho8.active8 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.popupzinho9 {
+    display: none;
+    width: 0;
+}
+
+.popupzinho9.active9 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.popupzinho10 {
+    display: none;
+    width: 0;
+}
+
+.popupzinho10.active10 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.popupzinho11 {
+    display: none;
+    width: 0;
+}
+
+.popupzinho11.active11 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.popupzinho12 {
+    display: none;
+    width: 0;
+}
+
+.popupzinho12.active12 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.popupzinho13 {
+    display: none;
+    width: 0;
+}
+
+.popupzinho13.active13 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.popupzinho14 {
+    display: none;
+    width: 0;
+}
+
+.popupzinho14.active14 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.popupzinho15 {
+    display: none;
+    width: 0;
+}
+
+.popupzinho15.active15 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.popupzinho16 {
+    display: none;
+    width: 0;
+}
+
+.popupzinho16.active16 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.popupzinho17 {
+    display: none;
+    width: 0;
+}
+
+.popupzinho17.active17 {
+    display: block;
+    font-size: 20px;
+    width: 100px;
+}
+
+.popupzinho18 {
+    display: none;
+    width: 0;
+}
+
+.popupzinho18.active18 {
+    display: block;
     font-size: 20px;
     width: 100px;
 }
