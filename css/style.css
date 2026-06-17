@@ -200,7 +200,6 @@ header nav ul li a {
 
 [class^="popupzinho"] {
     position: fixed;
-    /* fixed em vez de absolute — relativo à janela, não ao pai */
     right: 5%;
     top: 10rem;
     right: 5%;
@@ -255,7 +254,6 @@ header nav ul li a {
     color: #00000000;
 }
 
-
 [class*="cidadinha"][class*="active"] {
     width: 100px;
     display: flex;
@@ -276,4 +274,40 @@ header nav ul li a {
     transform: translateY(0);
     transition-delay: 0.8s;
     color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+[class^="cidadinha"] .imgcid img {
+    opacity: 0;
+    
+}
+
+/* Imagem aparece quando qualquer cidadinha está ativa */
+[class*="cidadinha"][class*="active"] .imgcid img {
+    opacity: 1;
+}
+
+.imgcid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.imgcid img {
+    width: 16rem;
+}
+#legend-row-svg-006d2c-tspan-svg0{
+    font-size: 67px;
+}
+#legend-row-svg-e31a1c-tspan-svg0{
+    font-size: 67px;
+}
+#legend-row-svg-ffff33-tspan-svg0{
+    font-size: 67px;
 }
