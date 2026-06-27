@@ -4,28 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/folha.png">
     <title>Povos indigenas de Santa Catarina</title>
+    
 </head>
 
 
 
 <body>
-    <header>
-        <div class="caixinha">
-            <div class="tituloPrincipal">
-                <h1>Povos Indígenas de Santa Catarina</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="" class="kaingang-uff">Kaingang</a></li>
-                    <li><a href="" class="xokleng-uff">Xokleng</a></li>
-                    <li><a href="" class="guarani-uff">Guarani</a></li>
-                </ul>
+    <div class="container">
+     <header>
+
+
+
+            <nav class="navbar navbar-expand-lg bg-transparent">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-flex justify-content-center align-items-center ms-5 me-5 fs-3" href="#"><div class="d-flex flex-column me-3" id="titulo-cor">Povos Indígenas <span>de Santa Catarina</span></div><div class="img-titulo"><img src="./img/logo insana.png" alt=""></div></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                        <ul class="navbar-nav w-100">
+                            <li class="nav-item">
+                                <a class="nav-link active fs-4" aria-current="page" id="Menu" href="index.html">Menu</a>
+                            </li>
+                            
+                            
+                            
+                            <li class="nav-item dropdown ms-auto" id="uff" >
+                                <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Povo indígena
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" id="Guarani" href="guarani.html">Guarani</a></li>
+                                    <li><a class="dropdown-item" id="Xokleng" href="#">Laklãnõ-Xokleng</a></li>
+                                    <li><a class="dropdown-item" id="Kaingang" href="#">Kaingang</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
             </nav>
-        </div>
-    </header>
+        </header>
+        
 
     <main>
 
@@ -1741,11 +1770,16 @@
 
     </main>
 
-    <script src="js/script.js"></script>
+    
 
     <footer>
 
     </footer>
+    </div>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
 </body>
 
 </html>
