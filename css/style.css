@@ -321,11 +321,13 @@ svg {
     font-size: 67px;
 }
 footer {
+    position: fixed;
     background-color: rgb(0, 0, 0);
     color: #ffffff;
     padding: 2rem;
     margin-top: 2rem;
     bottom: 0;
+    width: 100%;
 }
 
 footer h5 {
