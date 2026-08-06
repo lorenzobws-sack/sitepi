@@ -15,9 +15,7 @@ body {
 }
 
 #Guarani {
-    
     color: #0aa851;
-
 }
 
 
@@ -41,7 +39,7 @@ body{
 
     font-weight: 600;
     border-radius: 1rem;
-    background-color: rgba(150, 150, 150, 0.349) !important;
+    background-color: rgba(150, 150, 150, 0.685) !important;
     backdrop-filter: blur(5px) !important;
     border: 0.1rem solid rgba(82, 82, 82, 0.616) !important;
     margin-top: 0.5rem;
@@ -106,7 +104,7 @@ body{
     text-decoration: underline;
 }
 .carousel{
-      background-color: rgba(150, 150, 150, 0.349) !important;
+      background-color: rgba(150, 150, 150, 0.685) !important;
     backdrop-filter: blur(5px) !important;
     border: 0.1rem solid rgba(82, 82, 82, 0.616) !important;
     border-radius: 2rem;
@@ -125,7 +123,7 @@ object-fit: cover;
     aspect-ratio: 16 / 10; 
 }
 .textinho{
-     background-color: rgba(150, 150, 150, 0.349) !important;
+     background-color: rgba(150, 150, 150, 0.685) !important;
     backdrop-filter: blur(5px) !important;
     border: 0.1rem solid rgba(82, 82, 82, 0.616) !important;
     border-radius: 1rem;
@@ -134,7 +132,7 @@ object-fit: cover;
     padding: 2rem;
 }
 .section-cards h2{
-    background-color: rgba(150, 150, 150, 0.349) !important;
+    background-color: rgba(150, 150, 150, 0.685) !important;
     backdrop-filter: blur(5px) !important;
     border: 0.1rem solid rgba(82, 82, 82, 0.616) !important;
     border-radius: 1rem;
@@ -144,7 +142,7 @@ object-fit: cover;
 }
 
 .card{
-       background-color: rgba(150, 150, 150, 0.349) !important;
+       background-color: rgba(150, 150, 150, 0.685) !important;
     backdrop-filter: blur(5px) !important;
     border: 0.1rem solid rgba(82, 82, 82, 0.616) !important;
     border-radius: 1rem;
@@ -174,8 +172,16 @@ footer a {
 }
 
 
-footer a:hover {
+#GuaraniFooter:hover {
     color: #0aa851;
+}
+
+#KaingangFooter:hover {
+    color: #dc143c;   
+}
+
+#XoklengFooter:hover {
+    color: #05b0b6;
 }
 
 footer li {
