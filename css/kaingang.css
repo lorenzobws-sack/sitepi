@@ -6,8 +6,15 @@
     box-sizing: border-box;
 }
 
-body {
+body{
     font-family: 'Poppins', sans-serif;
+    background-image: url("../img/REAL-REAL-aura.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #Xokleng {
@@ -26,15 +33,7 @@ body {
     text-decoration: underline;                                                                                                                        
   
 }
-body{
-      background-image: url("../img/REAL-REAL-aura.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
+
 .navbar{
 
     font-weight: 600;
