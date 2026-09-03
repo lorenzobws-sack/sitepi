@@ -66,13 +66,13 @@ document.querySelectorAll("g.kaingang path, g.xokleng path, g.guarani path").for
         legendinha.textContent = el.id.replace("_SC", "").replaceAll("_", " ");
 
          if (el.closest("g.kaingang")) {
-            legendinha.style.background = "rgba(248, 0, 0, 0.744)";
+            legendinha.style.background = "#9e6111cc";
         } 
          if (el.closest("g.xokleng")) {
-            legendinha.style.background = "rgba(0, 240, 248, 0.644)";
+            legendinha.style.background = "#1c78c3b4";
         } 
         else if (el.closest("g.guarani")) {
-            legendinha.style.background = "rgba(0, 248, 12, 0.644)";
+            legendinha.style.background = "#086439b4";
         }
 
     };

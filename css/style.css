@@ -16,22 +16,23 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 #Xokleng {
-    color: #05b0b6;
+    color: #1C77C3;
 }
 
 #Guarani {
     
-    color: #0aa851;
+    color: #086439;
 
 }
 
 #Kaingang {
     
-    color: #dc143c;                                                                                                                             
+    color: #9E6111;                                                                                                                             
   
 }
 .navbar{
@@ -143,19 +144,19 @@ svg {
 .xokleng {
     stroke-width: 0.1;
     stroke: rgb(0, 0, 0);
-    fill: #05b0b6;
+    fill: #1C77C3;
 }
 
 .guarani {
     stroke: rgb(0, 0, 0);
-    fill: #0aa851;
+    fill: #086439;
     stroke-width: 0.1;
 
 }
 
 .kaingang {
     stroke: rgb(0, 0, 0);
-    fill: #dc143c;
+    fill: #9E6111;
     stroke-width: 0.1;
 }
 
@@ -168,7 +169,7 @@ svg {
 
 #legendinha {
     position: absolute;
-    color: rgb(0, 0, 0);
+    color: rgb(245, 245, 245);
     padding: 5px 10px;
     border-radius: 7px;
     border: 2px solid grey;
@@ -251,7 +252,7 @@ svg {
     
 }
 
-/* Imagem aparece quando qualquer cidadinha está ativa */
+
 [class*="cidadinha"][class*="active"] .imgcid img {
     opacity: 1;
 }
@@ -297,15 +298,15 @@ footer a {
 }
 
 #GuaraniFooter:hover {
-    color: #0aa851;
+    color: #086439;
 }
 
 #KaingangFooter:hover {
-    color: #dc143c;   
+    color: #9E6111;   
 }
 
 #XoklengFooter:hover {
-    color: #05b0b6;
+    color: #1C77C3;
 }
 
 
