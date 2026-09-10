@@ -11,12 +11,11 @@
 }
 
 body {
-    background-image: url("../img/REAL-REAL-aura.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    max-height: 100vh;
+    background-image: url("../img/auraoficial.png");
+    
+ 
+    background-repeat: repeat;
+
     display: flex;
     flex-direction: column;
 }
@@ -39,7 +38,7 @@ body {
 
     font-weight: 600;
     border-radius: 1rem;
-    background-color: rgba(150, 150, 150, 0.685) !important;
+    background-color: rgba(235, 226, 213, 0.685) !important;
     backdrop-filter: blur(5px) !important;
     border: 0.1rem solid rgba(82, 82, 82, 0.616) !important;
     margin-top: 0.5rem;
@@ -49,7 +48,7 @@ body {
 
 .dropdown-menu{
    
-    --bs-dropdown-bg: rgba(112, 112, 112, 0.692);  
+    --bs-dropdown-bg: rrgba(235, 226, 213, 0.685) !important; 
     border-radius: 1rem;
     border: 0.1rem solid rgba(82, 82, 82, 0.616) !important;
     animation: fadeIn 0.2s ease;
@@ -69,7 +68,7 @@ body {
 
 .dropdown-menu :hover{
     border-radius: 0.7rem;
-    background-color: rgba(0, 0, 0, 0.349) !important;
+    background-color: rgba(235, 226, 213, 0.685) !important;
     transition: 0.2s;
     color: #086439 !important;
    
@@ -137,7 +136,7 @@ svg {
 }
 
 #svg-background {
-    background-color: rgba(150, 150, 150, 0.685)!important;
+    background-color: rgba(235, 226, 213, 0.685) !important;
 
 }
 
@@ -229,7 +228,7 @@ svg {
    
     width: 33%;
 
-    background-color: rgba(150, 150, 150, 0.685);
+    background-color: rgba(235, 226, 213, 0.685) !important;
     backdrop-filter: blur(5px);
     border: 1px solid rgba(82, 82, 82, 0.616);
     border-radius: 0.5rem;
@@ -267,6 +266,8 @@ svg {
 
 .imgcid img {
     width: 16rem;
+ 
+    aspect-ratio: 16 / 10; 
 }
 #legend-row-svg-006d2c-tspan-svg0{
     font-size: 67px;
