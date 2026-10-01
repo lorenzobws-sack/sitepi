@@ -19,6 +19,8 @@ body{
 
 #Xokleng {
     color: #1C77C3;
+    text-decoration: underline;
+      font-weight: 600;
 }
 
 #Guarani {
@@ -29,8 +31,8 @@ body{
 #Kaingang {
     
     color: #9E6111;     
-    font-weight: 600;
-    text-decoration: underline;                                                                                                                        
+  
+                                                                                                                        
   
 }
 
@@ -196,4 +198,8 @@ footer li {
     #uff{
         margin: 0 !important;
     }
+}
+#XoklengFooter{
+    text-decoration: underline;
+      font-weight: 600;
 }
