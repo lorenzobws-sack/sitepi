@@ -175,8 +175,16 @@ footer a {
 }
 
 
-footer a:hover {
+#GuaraniFooter:hover {
     color: #0aa851;
+}
+
+#KaingangFooter:hover {
+    color: #9E6111;   
+}
+
+#XoklengFooter:hover {
+    color: #05b0b6;
 }
 
 footer li {
@@ -192,4 +200,8 @@ footer li {
     #uff{
         margin: 0 !important;
     }
+}
+#GuaraniFooter{
+     font-weight: 600;
+    text-decoration: underline;
 }
