@@ -176,7 +176,7 @@ footer a {
 }
 
 #KaingangFooter:hover {
-    color: #dc143c;   
+    color: #9E6111;   
 }
 
 #XoklengFooter:hover {
@@ -196,4 +196,8 @@ footer li {
     #uff{
         margin: 0 !important;
     }
+}
+#KaingangFooter{
+    font-weight: 600;
+    text-decoration: underline; 
 }
