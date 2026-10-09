@@ -1,6 +1,7 @@
 let n = 0;
 let c = 0;
 
+
 const mapinha = document.querySelector('.mapinha');
 
 const popupzinhos = Array.from({length: 18}, (_, i) =>
@@ -39,17 +40,18 @@ document.querySelectorAll("path").forEach(el => {
         fecharTodos();
 
         if (jaAberto) {
-            // estava aberto: fecha tudo e fecha o mapa
+            
             mapinha.classList.remove('active');
             n = 0;
             c = 0;
         } else {
-            // estava fechado: abre o novo
             popupzinhos[index].classList.add(`active${index + 1}`);
             cidadinhas[index].classList.add(`active${index + 1}`);
             mapinha.classList.add('active');
             n = index + 1;
             c = 1;
+
+            setTimeout(() => { cidadinhas[index].scrollIntoView({ behavior: 'smooth', block: 'center' }); }, 200);
         }
     });
 });
