@@ -57,7 +57,7 @@ main {
 
 .dropdown-menu{
    
-    --bs-dropdown-bg: rrgba(235, 226, 213, 0.685) !important; 
+    --bs-dropdown-bg: rgba(235, 226, 213, 0.767) !important; 
     border-radius: 1rem;
     border: 0.1rem solid rgba(82, 82, 82, 0.616) !important;
     animation: fadeIn 0.2s ease;
@@ -79,7 +79,7 @@ main {
     border-radius: 0.7rem;
     background-color: rgba(235, 226, 213, 0.685) !important;
     transition: 0.2s;
-    color: #086439 !important;
+    color: #000000 !important;
    
     
 }
@@ -265,6 +265,9 @@ svg {
 
 [class*="cidadinha"][class*="active"] .imgcid img {
     opacity: 1;
+}
+[class*="cidadinha"][class*="active"] p{
+    text-align: justify;
 }
 
 .imgcid {
